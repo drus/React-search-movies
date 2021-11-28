@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.searchform-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.searchform-wrapper .field.has-addons{
+  justify-content: center;
+}
+
+
+.MoviesList{
+  padding: 20px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.MoviesList-item{
+}
+
+.SearchHistory {
+  display: none;
+  padding: 10px;
+}
+.SearchHistory--active {
+  display: block;
+}
+.SearchHistory button{
+  background: none;
+  border: 1px solid darkblue;
+  padding: 2px 8px;
+  margin: 1px;
+  border-radius: 3px;
+  font-size: 12px;
+  color:darkblue;
+}
+.SearchHistory button:hover{
+  background-color: darkblue;
+  color:white;
+  cursor: pointer;
+  border-color: transparent;
+}
+
+.Detail{
+  display: none;
+  background-color: gray;
+}
+.Detail--active{
+  display: block;
+  background-color: transparent;
+}
